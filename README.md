@@ -13,14 +13,14 @@
 ### Initial Approach 
 - Because there are various features in the dataset (~53), we initially approached our model using a stacked classifier.  Our hope was that a stacked classifier would allow us to learn different pattersnw within the dataset 
 - Seeing that the stacked classifier did poorly comapred to the random forest, we decided to use just a random forest for our predictions
--[code](Notebooks/Modeling-Entire.ipynb)
+- [code](Notebooks/Modeling-Entire.ipynb)
 
 ![Baseline stacked classifier](Notebooks/figures/BaselineAccuracy.png)
 
 
 ### Random Forest
 - We performed a random forest on each basin to determine whetehr accuracy, precision, or recall changed when given a smaller and more precise dataset 
--[code](Notebooks/Modeling-ByBasin.ipynb)
+- [code](Notebooks/Modeling-ByBasin.ipynb)
 ![KFoldByRegion](Notebooks/figures/ByRegionKFold.png)
 ![Confusionmatrix](Notebooks/figures/BASINS_confusion_matrix.png)
 
