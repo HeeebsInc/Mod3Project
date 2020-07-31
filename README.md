@@ -1,7 +1,7 @@
 # Tanzania Water-Well Repairs 
 
 ### Authors 
-- [Samuel Mohebban](https://github.com/HeeebsInc) and [Jake Miller Brooks]
+- [Samuel Mohebban](https://github.com/HeeebsInc) and [Jake Miller Brooks](https://github.com/HeeebsInc/TanzaniaWaterRepair/commits?author=jmillerbrooks)
 ### Business Questions 
 - Can water-well tracking in Tanzania be automated? 
 - If so, how much money would this automation save the Tanzanian government? 
