@@ -22,9 +22,12 @@
 
 ### Random Forest
 - We performed a random forest on each basin to determine whetehr accuracy, precision, or recall changed when given a smaller and more precise dataset 
+- 78% Correct Predictions
+- 22% Incorrect Predictions
 - [code](Notebooks/Modeling-ByBasin.ipynb)
 ![KFoldByRegion](Notebooks/figures/ByRegionKFold.png)
 ![Confusionmatrix](Notebooks/figures/BASINS_confusion_matrix.png)
+![AggCM](Notebooks/figures/AggregatedCM.png)
 
 
 ## Conclusion 
