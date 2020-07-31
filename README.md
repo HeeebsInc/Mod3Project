@@ -5,7 +5,8 @@
 - [Google Slides Presentation](https://docs.google.com/presentation/d/1r0bV_F9mTsyee_Qof-4VhtH0wnv4N9ziCK-c1IvttYM/edit?usp=sharing)
 
 ### Data 
-- 
+- [Pump it Up: Data Mining the Water Table](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/)
+
 ### Business Questions 
 - Can water-well tracking in Tanzania be automated? 
 - If so, how much money would this automation save the Tanzanian government? 
