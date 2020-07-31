@@ -34,3 +34,5 @@
 - Median Salary in Tanzania → $20,699 (~$80 per/day)
 - Number of Known Wells →  57,247
 - Assuming each well requires a single person to go check and can take up to an entire day, and that each well is checked at least once every year, automating this process can save the Tanzanian government approximately **$4,579,760**  per year
+
+![Basins](Notebooks/figures/basins.png)
