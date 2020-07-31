@@ -2,6 +2,7 @@
 
 ### Authors 
 - [Samuel Mohebban](https://github.com/HeeebsInc) and [Jake Miller Brooks](https://github.com/HeeebsInc/TanzaniaWaterRepair/commits?author=jmillerbrooks)
+- [Google Slides Presentation](https://docs.google.com/presentation/d/1r0bV_F9mTsyee_Qof-4VhtH0wnv4N9ziCK-c1IvttYM/edit?usp=sharing)
 
 ### Data 
 - 
