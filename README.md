@@ -13,8 +13,8 @@
 - How would this be beneficial for the Tanznaian population? 
 
 ### Initial Approach 
-- Because there are various features in the dataset (~53), we initially approached our model using a stacked classifier.  Our hope was that a stacked classifier would allow us to learn different pattersnw within the dataset 
-- Seeing that the stacked classifier did poorly comapred to the random forest, we decided to use just a random forest for our predictions
+- Because there are various features in the dataset (~53), we initially approached our model using a stacked classifier.  Our hope was that a stacked classifier would allow us to learn different patterns within the dataset 
+- Seeing that the stacked classifier did poorly comapred to the random forest classifier, we decided to use just a random forest for our predictions
 - [code](Notebooks/Modeling-Entire.ipynb)
 
 ![Baseline stacked classifier](Notebooks/figures/BaselineAccuracy.png)
