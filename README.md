@@ -13,15 +13,30 @@
 - How would this be beneficial for the Tanznaian population? 
 
 ### Initial Approach 
-- Because there are various features in the dataset (~53), we initially approached our model using a stacked classifier.  Our hope was that a stacked classifier would allow us to learn different patterns within the dataset 
-- Seeing that the stacked classifier did poorly comapred to the random forest classifier, we decided to use just a random forest for our predictions
+- Because there are various features in the dataset (~53), we initially approached our model using a stacked classifier.  Our hope was that a stacked classifier would allow us to learn different patterns within the dataset
+- We first scaled the following numeric columns (amount_tsh, gps_height, population, time_passed) with a standard scaler
+- The models we included in the stacked ensemble were:
+    Logistic Regression
+    KNearest Neighbors
+    Decision Tree
+    Gaussian Classifier
+    Linear Discriminant Analysis
+    LinearSVC
+    SDGSVC
+    ADA
+    Bagging
+    Ridge
+    Random Forest
+    
+- To evaluate the performance of each model, we used a stratified k-fold on the full set.
+- Seeing that the stacked classifier did not perform significantly better compared to the random forest classifier, we decided to use just a random forest for our predictions
 - [code](Notebooks/Modeling-Entire.ipynb)
 
 ![Baseline stacked classifier](Notebooks/figures/BaselineAccuracy.png)
 
 
 ### Random Forest
-- We performed a random forest on each basin to determine whetehr accuracy, precision, or recall changed when given a smaller and more precise dataset 
+- We performed a random forest on each basin to determine whether accuracy, precision, or recall changed when given a smaller and more precise dataset 
 - 78% Correct Predictions
 - 22% Incorrect Predictions
 - [code](Notebooks/Modeling-ByBasin.ipynb)
